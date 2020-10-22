@@ -1,10 +1,9 @@
 body{
 	margin: 0;
-	background-color: red;
-	background-image: url('../img/tri2.png');
-	background-position: center;
+	background-color: #000000;
 	font-family: helvetica, arial,sans-serif;
 	line-height: 30px;
+
 }
 
 header {
@@ -12,7 +11,7 @@ header {
 	text-align: center;
 	background-color: #540277;
 	color: #FFFFFF;
-	border: 10px solid #000000;
+	border: 10px solid #190277;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	max-width: 800px;
@@ -24,21 +23,25 @@ main {
 	color: #540277;
 	max-width: 800px;
 	font-family: 'Indie Flower', cursive;
-	border: 10px solid #000000;
+	border: 10px solid #190277;
 	margin: 0 auto;
 	padding: 20px;
 	font-weight: bold;
 	font-size: 25px;
-}
-main img {
-	max-width: 100%,
-	text-align:center;
+	background-image: url('../img/tri2.png');
 }
 
+main img {
+	
+	max-width: 100%;
+	text-align:center;
+
+}
 h2, h3 {
 	
 	margin: 40px 0 10px;
 		text-align:center;
+		
 
 } p{
 
@@ -46,10 +49,12 @@ h2, h3 {
 	text-align: center;
 }
 a{
+	
 	color: #540277 ;
 	font-weight: bold;
 }
 a:hover {
+	
 	color:#FFFFFF;
 	background-color: #540277;
 }
@@ -58,7 +63,7 @@ footer {
 	background-color:#540277;
 	color: #FFFFFF; 
 	text-align: center;
-	border: 10px solid #000000;
+	border: 10px solid #190277;
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 10px;
@@ -81,7 +86,7 @@ body img{
 h4{
 	
 	text-align: center;
-	border: 10px solid black;
+	border: 10px solid #190277;
 	background-color:#540277;
 	color: #FFFFFF; 
 	max-width: 800px;
